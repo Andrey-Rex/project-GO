@@ -1,0 +1,16 @@
+@import "normalize.css";
+@import "global.css";
+
+@import "header/header.css";
+@import "main/main.css";
+@import "all-for-rest/all-for-rest.css";
+@import "halls/halls.css";
+@import "booking/booking.css";
+@import "about/about.css";
+@import "reviews/reviews.css";
+@import "footer/footer.css";
+@import "faq/faq.css";
+
+
+
+

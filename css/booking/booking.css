@@ -1,0 +1,333 @@
+.booking__title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.booking {
+    padding: 80px 130px;
+    background: #440F51;
+    margin-left: -130px;
+    margin-right: -130px;
+}
+
+.booking__button {
+    padding: 16px 50px;
+    /*border: none;*/
+    border-radius: 10px;
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #6C0287;
+    background-color: #ffffff;
+    border: 3px solid transparent;
+
+    margin-left: 780px;
+
+}
+
+.booking__button:hover {
+    background-color: #EADEED;
+    border: 3px solid #6C0287;
+}
+
+.booking__button:active {
+    background-color: #EADEED;
+    border: 3px solid transparent;
+}
+
+.booking__button:focus {
+    border: 3px solid #6C0287;
+}
+
+.funbox {
+    margin-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.funbox__inner {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.booking__form {
+
+
+}
+
+.form {
+
+}
+.form__fieldset {
+
+}
+.choose-hall {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.choose-hall__legend {
+
+}
+
+.choose-hall__label {
+    display: flex;
+    flex-basis: 250px;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000 ;
+    background-color: #ffffff;
+
+    border-radius: 8px;
+    border: 3px solid transparent;
+    /*user-select: none;*/
+}
+
+.choose-hall__label:hover {
+    background-color: #EADEED;
+    border: 3px solid #640AA3;
+
+}
+
+.choose-hall__label:active {
+    background-color: #EADEED;
+    border: 3px solid transparent;
+
+}
+
+.choose-hall__label:focus {
+    border: 3px solid #640AA3;
+
+}
+
+.choose-hall__input {
+    display: none;
+}
+
+.choose-hall__span {
+
+}
+
+.funbox {
+
+}
+
+.console,
+.games,
+.other {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.console__legend,
+.games__legend,
+.other__legend{
+    margin-bottom: 24px;
+}
+
+.console__label {
+
+}
+.console__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+
+.console__input:checked + .console__name:after {
+    opacity: 1;
+}
+
+.console__name {
+    position: relative;
+    padding: 0 0 0 39px;
+    cursor: pointer;
+}
+
+.console__name:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: #FFF;
+}
+
+.console__name:after {
+
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #6C0287;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+    opacity: 0;
+    transition: .2s;
+}
+
+.games__label {
+
+}
+.games__input,
+.other__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+
+.games__input:checked + .games__name:after,
+.other__input:checked + .other__name:after{
+    opacity: 1;
+}
+
+.games__name,
+.other__name {
+    position: relative;
+    padding: 0 0 0 37px;
+    cursor: pointer;
+}
+
+.games__name:before,
+.other__name:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background: #FFF;
+}
+
+.games__name:after,
+.other__name:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+
+    background: #6C0287;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+    opacity: 0;
+    transition: .2s;
+}
+
+
+.other__label {
+
+}
+.other__input {
+
+}
+.other__name {
+
+}
+
+.information{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 14px 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+
+}
+.information__legend{
+
+}
+.date-time-wrap{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.date {
+   max-width: 134px;
+}
+
+.time {
+    max-width: 134px;
+}
+.information__label{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.information__label_type_short {
+   flex-basis: 280px;
+
+}
+
+.information__name {
+
+
+}
+
+.information__input{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    /*padding-top: 12px;*/
+    /*padding-bottom: 12px;*/
+    padding: 12px;
+    border: none;
+    margin-top: 6px;
+}
+
+.information__input:focus {
+    border: 2px solid #CD06FF;
+}
+
+.information__name_type_date{
+
+}
+.information__name_type_time{
+
+}
+.information__name_type_persons{
+
+}

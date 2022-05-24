@@ -1,0 +1,128 @@
+.footer__title {
+    margin-bottom: 40px;
+    text-align: center;
+    /*margin-bottom: 60px;*/
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 166px;
+}
+
+.footer__inner {
+
+}
+
+
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 39px;
+    font-style: inherit;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.city   {
+    padding-left: 60px;
+    margin-bottom: 38px;
+    background: url("images/location.svg") no-repeat left center;
+    max-width: 300px;
+}
+.address__list-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+}
+.address__item_type_tel {
+    background: url("images/phone-call.svg") no-repeat left center;
+    padding-left: 60px;
+}
+
+.address__item_type_mail{
+    background: url("images/envelope.svg") no-repeat left center;
+    padding-left: 60px;
+}
+.social__item {
+    display: inline-block;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 26px;
+}
+
+.social__item:hover {
+ /*fill: #EADEED;*/
+
+}
+
+.insta-fill {
+    fill: #FFFFFF;
+}
+.insta-fill:hover{
+    fill: #EADEED;
+}
+
+.social__item:active {
+
+}
+
+.social__item:focus {
+
+}
+
+
+.social__item:last-child {
+    margin-right: 0;
+}
+.footer {
+    padding-top: 100px;
+    /*padding-bottom: 83px;*/
+    margin-left: -76px;
+    padding-left: 76px;
+    margin-right: -184px;
+    padding-right: 184px;
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
+.footer__map {
+    max-width: 680px;
+    max-height: 274px;
+}
+.map__img {
+    max-width: 100%;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.bottom__copyright {
+
+
+
+
+}
+.bottom__info {
+    /*text-align: right;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
+    /*line-height: 16px;*/
+
+
+
+}
+.bottom__info-text {
+    margin-bottom: 6px;
+}
+.bottom__link {
+
+}

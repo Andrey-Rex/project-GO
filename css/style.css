@@ -1,8 +1,9 @@
 @import "normalize.css";
 @import "global.css";
 
-@import "header/header.css";
 @import "main/main.css";
+@import "header/header.css";
+
 @import "all-for-rest/all-for-rest.css";
 @import "halls/halls.css";
 @import "booking/booking.css";

@@ -62,7 +62,7 @@
     <main>
 
         <section class="all-for-rest section">
-            <h2 class="all-for-rest__title">У нас есть все для классного отдыха с друзьями!</h2>
+            <h2 class="section__title section__title_rows_two">У нас есть все для классного отдыха с друзьями!</h2>
             <ul class="all-for-rest__list">
 
                 <li class="all-for-rest__item">
@@ -118,9 +118,10 @@
 
 
         </section>
+
         <section class="halls section" id="halls">
 
-            <h2 class="halls__title">Наши залы</h2>
+            <h2 class="section__title">Наши залы</h2>
             <ul class="halls__list">
 
                 <li class="halls__item">
@@ -154,142 +155,142 @@
 
 
         <section class="booking section" id="booking">
-            <h2 class="booking__title">Забронировать зал просто</h2>
+            <h2 class="section__title">Забронировать зал просто</h2>
 
-            <form class="booking__form form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post">
 
-                <fieldset class="form__fieldset choose-hall">
-                    <legend class="choose-hall__legend legend">Выбери зал</legend>
+                <fieldset class="choose-hall">
+                    <legend class="section__subtitle">Выбери зал</legend>
 
                     <label class="choose-hall__label transition" for="vibes">
                         <input class="choose-hall__input" type="radio" name="halls" id="vibes" value="80's vibes">
-                        <span class="choose-hall__span">80's vibes</span>
+                        <span>80's vibes</span>
                     </label>
 
 
-                    <label class="choose-hall__label" for="star wars">
-                        <input class="choose-hall__input" type="radio" name="halls" id="star wars" value="Star wars">
-                        <span class="choose-hall__span">Star wars</span>
+                    <label class="choose-hall__label" for="star-wars">
+                        <input class="choose-hall__input" type="radio" name="halls" id="star-wars" value="Star wars">
+                        <span >Star wars</span>
                     </label>
 
-                    <label class="choose-hall__label" for="wild west">
-                        <input class="choose-hall__input" type="radio" name="halls" id="wild west" value="Wild west">
-                        <span class="choose-hall__span">Wild west</span>
+                    <label class="choose-hall__label" for="wild-west">
+                        <input class="choose-hall__input" type="radio" name="halls" id="wild-west" value="Wild west">
+                        <span>Wild west</span>
                     </label>
 
-                    <label class="choose-hall__label" for="neon style">
-                        <input class="choose-hall__input" type="radio" name="halls" id="neon style" value="Neon style">
-                        <span class="choose-hall__span">Neon style</span>
+                    <label class="choose-hall__label" for="neon-style">
+                        <input class="choose-hall__input" type="radio" name="halls" id="neon-style" value="Neon style">
+                        <span>Neon style</span>
                     </label>
 
                 </fieldset>
 
-                <fieldset class="form__fieldset funbox">
-                    <legend class="legend funbox__legend">Собери набор развлечений</legend>
+                <fieldset class="funbox">
+                    <legend class="section__subtitle">Собери набор развлечений</legend>
                     <div class="funbox__inner">
-                        <fieldset class="form__fieldset console">
-                            <legend class="legend console__legend">Приставка:</legend>
-                            <label class="console__label" for="PS">
-                                <input class="console__input" type="radio" name="console" id="PS" value="Play Station">
-                                <span class="console__name">Play Station</span>
+                        <fieldset class="funbox__column">
+                            <legend class="funbox__column-title section__subtitle">Приставка:</legend>
+                            <label for="ps">
+                                <input class="funbox__input" type="radio" name="console" id="ps" value="Play Station">
+                                <span class="funbox__item funbox__item_input_radio">Play Station</span>
                             </label>
 
-                            <label class="console__label" for="SMD">
-                                <input class="console__input" type="radio" name="console" id="SMD"
+                            <label for="smd">
+                                <input class="funbox__input" type="radio" name="console" id="smd"
                                        value="Sega Mega Drive">
-                                <span class="console__name">Sega Mega Drive</span>
+                                <span class="funbox__item funbox__item_input_radio">Sega Mega Drive</span>
                             </label>
 
-                            <label class="console__label" for="X-Box">
-                                <input class="console__input" type="radio" name="console" id="X-Box"
+                            <label for="x-box">
+                                <input class="funbox__input" type="radio" name="console" id="x-box"
                                        value="X-Box One S">
-                                <span class="console__name">X-Box One S</span>
+                                <span class="funbox__item funbox__item_input_radio">X-Box One S</span>
                             </label>
 
-                            <label class="console__label" for="dendy">
-                                <input class="console__input" type="radio" name="console" id="dendy" value="Dendy">
-                                <span class="console__name">Dendy</span>
+                            <label for="dendy">
+                                <input class="funbox__input" type="radio" name="console" id="dendy" value="Dendy">
+                                <span class="funbox__item funbox__item_input_radio">Dendy</span>
                             </label>
 
                         </fieldset>
 
 
-                        <fieldset class="form__fieldset games">
-                            <legend class="legend games__legend">Настольные игры:</legend>
-                            <label class="games__label" for="jenga">
-                                <input class="games__input" type="checkbox" name="jenga" id="jenga" value="Jenga">
-                                <span class="games__name">Jenga</span>
+                        <fieldset class="funbox__column">
+                            <legend class="funbox__column-title section__subtitle">Настольные игры:</legend>
+                            <label for="jenga">
+                                <input class="funbox__input" type="checkbox" name="jenga" id="jenga" value="Jenga">
+                                <span class="funbox__item">Jenga</span>
                             </label>
 
-                            <label class="games__label" for="monopoly">
-                                <input class="games__input" type="checkbox" name="monopoly" id="monopoly"
+                            <label for="monopoly">
+                                <input class="funbox__input" type="checkbox" name="monopoly" id="monopoly"
                                        value="Monopoly">
-                                <span class="games__name">Monopoly</span>
+                                <span class="funbox__item">Monopoly</span>
                             </label>
 
-                            <label class="games__label" for="manchkin">
-                                <input class="games__input" type="checkbox" name="manchkin" id="manchkin"
+                            <label for="manchkin">
+                                <input class="funbox__input" type="checkbox" name="manchkin" id="manchkin"
                                        value="Manchkin">
-                                <span class="games__name">Манчкин</span>
+                                <span class="funbox__item">Манчкин</span>
                             </label>
 
-                            <label class="games__label" for="alias">
-                                <input class="games__input" type="checkbox" name="alias" id="alias" value="Alias">
-                                <span class="games__name">Alias</span>
+                            <label for="alias">
+                                <input class="funbox__input" type="checkbox" name="alias" id="alias" value="Alias">
+                                <span class="funbox__item">Alias</span>
                             </label>
 
                         </fieldset>
 
-                        <fieldset class="form__fieldset other">
-                            <legend class="legend other__legend">Дополнительно:</legend>
-                            <label class="other__label" for="karaoke">
-                                <input class="other__input" type="checkbox" name="karaoke" id="karaoke" value="Karaoke">
-                                <span class="other__name">Караоке</span>
+                        <fieldset class="funbox__column">
+                            <legend class="funbox__column-title section__subtitle">Дополнительно:</legend>
+                            <label for="karaoke">
+                                <input class="funbox__input" type="checkbox" name="karaoke" id="karaoke" value="Karaoke">
+                                <span class="funbox__item">Караоке</span>
                             </label>
 
-                            <label class="other__label" for="VR">
-                                <input class="other__input" type="checkbox" name="VR" id="VR" value="VR">
-                                <span class="other__name">VR</span>
+                            <label for="vr">
+                                <input class="funbox__input" type="checkbox" name="vr" id="vr" value="VR">
+                                <span class="funbox__item">VR</span>
                             </label>
                         </fieldset>
                     </div>
                 </fieldset>
 
 
-                <fieldset class="form__fieldset information">
-                    <legend class="legend information__legend">Выбери дату и время</legend>
+                <fieldset class="information">
+                    <legend class="section__subtitle">Выбери дату и время</legend>
 
                     <div class="date-time-wrap">
-                        <label class="information__label date" for="date">
-                            <span class="information__name information__name_type_date ">Дата</span>
+                        <label class="information__label information__label_size_compressed" for="date">
+                            <span>Дата</span>
                             <input class="information__input transition" type="date" name="date" id="date" required>
                         </label>
 
-                        <label class="information__label time" for="time">
-                            <span class="information__name information__name_type_time">Время</span>
+                        <label class="information__label information__label_size_compressed" for="time">
+                            <span>Время</span>
                             <input class="information__input" type="time" name="time" id="time" required>
                         </label>
                     </div>
 
-                    <label class="information__label information__label_type_short" for="name">
-                        <span class="information__name">Имя</span>
+                    <label class="information__label information__label_size_short" for="name">
+                        <span>Имя</span>
                         <input class="information__input" type="text" name="name" id="name" required>
                     </label>
 
                     <label class="information__label" for="tel">
-                        <span class="information__name information__name_type_phone">Номер телефона</span>
+                        <span>Номер телефона</span>
                         <input class="information__input" type="tel" name="tel" id="tel" required>
                     </label>
 
                     <label class="information__label information__label_type_person" for="people">
-                        <span class="information__name information__name_type_persons">Количество человек</span>
+                        <span>Количество человек</span>
                         <input class="information__input" placeholder="Сколько человек" type="number" name="people"
                                id="people" required>
                     </label>
 
 
-                    <label class="information__label information__label_type_short" for="second-name">
-                        <span class="information__name">Фамилия</span>
+                    <label class="information__label information__label_size_short" for="second-name">
+                        <span>Фамилия</span>
                         <input class="information__input" type="text" name="second-name" id="second-name" required>
                     </label>
 
@@ -307,7 +308,7 @@
 
 
         <section id="about" class="about section">
-            <h2 class="about__title">О нас</h2>
+            <h2 class="section__title section__title_bottom_more">О нас</h2>
 
             <div class="about__wrap">
 
@@ -362,7 +363,7 @@
 
 
         <section class="reviews section" id="reviews">
-            <h2 class="reviews__title">Отзывы посетителей</h2>
+            <h2 class="section__title">Отзывы посетителей</h2>
 
             <ul class="reviews__list">
                 <li class="reviews__item">
@@ -405,7 +406,7 @@
         </section>
 
         <section class="faq section" id="questions">
-            <h2 class="faq__title">Частые вопросы</h2>
+            <h2 class="section__title">Частые вопросы</h2>
             <ul class="faq__list">
                 <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
                 <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
@@ -417,7 +418,7 @@
     </main>
 
     <footer id="contacts" class="footer section">
-        <h2 class="footer__title">Контакты</h2>
+        <h2 class="section__title">Контакты</h2>
         <div class="footer__wrap">
 
             <div class="footer__inner">

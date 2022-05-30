@@ -1,7 +1,7 @@
 @import "normalize.css";
 @import "global.css";
 
-@import "main/main.css";
+@import "main.css";
 @import "header/header.css";
 
 @import "all-for-rest/all-for-rest.css";

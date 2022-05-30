@@ -5,8 +5,11 @@
 }
 
 .section__title_rows_two {
-    margin-left: 230px;
-    margin-right: 230px;
+    /*margin-left: 230px;*/
+    /*margin-right: 230px;*/
+    margin: 0 auto;
+    max-width: 980px;
+    margin-bottom: 40px;
 }
 
 .all-for-rest__list{

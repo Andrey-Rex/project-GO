@@ -33,13 +33,33 @@
   width: 46px;
   height: 46px;
   background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 .faq__item:nth-child(even)::after {
   background-image: url("images/open.svg");
-} 
+}
+
+.faq__item:nth-child(even):hover:after {
+  background-image: url("images/open-hover.svg");
+}
+
+.faq__item:nth-child(even):active:after {
+  background-image: url("images/open-active.svg");
+}
+
+
 
 .faq__item:nth-child(odd)::after {
   background-image: url("images/open-purple.svg");
+}
+
+.faq__item:nth-child(odd):hover:after {
+  background-image: url("images/open-purple-hover.svg");
+}
+
+.faq__item:nth-child(odd):active:after {
+  background-image: url("images/open-purple-active.svg");
 }
 
 

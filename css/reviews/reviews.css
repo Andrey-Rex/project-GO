@@ -5,10 +5,10 @@
 .reviews__img {
     width: 280px;
     height: 280px;
-    margin-bottom: 11px;
     border-radius: 5000%;
     object-fit: cover;
     object-position: top;
+    margin-bottom: 11px;
 
 }
 

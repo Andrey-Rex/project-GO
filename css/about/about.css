@@ -31,7 +31,7 @@
     max-width: 100%;
 }
 
-.about__text:not(:last-child) {
+.about__text:not(:nth-child(n+2)) {
     margin-bottom: 44px;
 }
 
@@ -88,10 +88,10 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
-    font-size: 20px;
-    line-height: 28px;
+    /*font-size: 20px;*/
+    /*line-height: 28px;*/
     /*margin-left: 515px;*/
-    margin-left: 790px;
+    /*margin-left: 790px;*/
 }
 .blockquote__cite-wrap {
     max-width: 270px;

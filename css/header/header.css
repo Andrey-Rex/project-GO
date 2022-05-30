@@ -3,15 +3,12 @@
     padding-top: 0;
 }
 
-
-
 .header__title {
     font-weight: 900;
     font-size: 150px;
     line-height: 150px;
     text-transform: uppercase;
     letter-spacing: -15px;
-
     position: relative;
     bottom: -60px;
 }
@@ -20,14 +17,13 @@
     position: relative;
     height: 940px;
     overflow: hidden;
-    /*margin-bottom: 50px;*/
 }
 
 .header__background {
     position: absolute;
     width: 675px;
     height: auto;
-    bottom: 0;
+    bottom: 57px;
     right: 0;
 }
 
@@ -40,8 +36,6 @@
     bottom: -60px;
 }
 
-
-
 .header__top {
     position: relative;
     display: flex;
@@ -52,14 +46,6 @@
 
 .header__nav {
     display: inline-block;
-
-}
-.nav {
-
-}
-
-
-.header__logo {
 
 }
 
@@ -75,16 +61,7 @@
     justify-content: center;
     align-items: center;
     font-size: 22px;
-    /*font-weight: 400;*/
     line-height: 50px;
-}
-
-.nav__link {
-
-}
-
-.button {
-
 }
 
 .nav__button {
@@ -100,12 +77,8 @@
     border: 3px solid #CD06FF;
     border-radius: 10px;
     cursor: pointer;
-
 }
 
-.transition {
-    transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-}
 
 .nav__button:hover {
     background-color: #6C0287;
@@ -122,8 +95,8 @@
     border-color: #6C0287;
 }
 
-.header__inner {
-
+.transition {
+    transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
 
 .inner {
@@ -149,10 +122,6 @@
     /*font-weight: 400;*/
     line-height: 34px;
     align-self: flex-end;
-}
-
-.inner__span {
-
 }
 
 .inner__span_type_number {
@@ -198,22 +167,27 @@
 }
 
 
-.button__down {
+.button-down {
     position: relative;
-    left: 544px;
+    /*left: 544px;*/
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 90px;
     background-color: transparent;
+    background-image: url("images/down-usual.svg");
     border: none;
-}
-
-.button__down:hover {
-    background-color: #FFFFFF;
-
+    width: 97px;
+    height: 97px;
 
 }
-.button__down:active {
 
+.button-down:hover {
+    background-image: url("images/down-hover.svg");
 }
-.button__down:focus {
+.button-down:active {
+    background-image: url("images/down-active.svg");
+}
 
+.button-down:focus {
+    background-image: url("images/down-focus.svg");
 }

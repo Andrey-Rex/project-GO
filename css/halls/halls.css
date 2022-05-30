@@ -54,9 +54,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
-
-
 
 .halls__item {
     position: relative;
@@ -66,17 +65,8 @@
     text-transform: uppercase;
     height: 349px;
     width: 580px;
-    margin-bottom: 20px;
     text-align: center;
     padding-top: 275px;
-}
-
-.halls__item:not(:nth-child(2n)) {
-    margin-right: 20px;
-}
-
-.halls__item:nth-child(n+2) {
-    margin-bottom: 0;
 }
 
 .halls__name {

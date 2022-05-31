@@ -64,7 +64,7 @@
     line-height: 50px;
 }
 
-.nav__button {
+.header__button {
     max-height: 55px;
     display: inline-block;
     font-size: 22px;
@@ -80,17 +80,17 @@
 }
 
 
-.nav__button:hover {
+.header__button:hover {
     background-color: #6C0287;
     border-color: #6C0287;
 }
 
-.nav__button:active {
+.header__button:active {
     background-color: #640AA3;
     border-color: #640AA3;
 }
 
-.nav__button:focus {
+.header__button:focus {
     background-color: #6C0287;
     border-color: #6C0287;
 }
@@ -166,6 +166,7 @@
 
 
 .button-down {
+    display: inline-block;
     position: relative;
     /*left: 544px;*/
     left: 50%;
@@ -173,9 +174,11 @@
     bottom: 90px;
     background-color: transparent;
     background-image: url("../header/images/down-usual.svg");
+    background-repeat: no-repeat;
     border: none;
     width: 97px;
     height: 97px;
+
 
 }
 

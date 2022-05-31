@@ -164,31 +164,36 @@
     border-color:#640AA3;
 }
 
-
+.down {
+    max-width: 100%;
+}
 .button-down {
     display: inline-block;
     position: relative;
-    /*left: 544px;*/
     left: 50%;
     transform: translateX(-50%);
     bottom: 90px;
-    background-color: transparent;
+    /*background-color: transparent;*/
     background-image: url("../header/images/down-usual.svg");
-    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
     border: none;
     width: 97px;
     height: 97px;
-
-
+    z-index: 2;
 }
 
 .button-down:hover {
     background-image: url("../header/images/down-hover.svg");
 }
-.button-down:active {
-    background-image: url("../header/images/down-active.svg");
-}
 
 .button-down:focus {
-    background-image: url("../header/images/down-focus.svg");
+    background-image: url("../header/images/down-usual.svg");
+    outline: 1px   solid #CD06FF;
 }
+
+.button-down:active {
+     /*z-index: 11;*/
+     background-image: url("../header/images/down-active.svg");
+    outline: none;
+ }

@@ -44,7 +44,12 @@
     /*margin-bottom: 20px;*/
     /*text-align: center;*/
     /*padding-top: 275px;*/
+    transition: 0.6s;
 
+}
+
+.all-for-rest__figure:hover {
+    transform: scale(1.1);
 }
 
 .all-for-rest__img-descr {

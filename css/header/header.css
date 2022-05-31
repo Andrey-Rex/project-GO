@@ -95,9 +95,7 @@
     border-color: #6C0287;
 }
 
-.transition {
-    transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-}
+
 
 .inner {
     position: relative;
@@ -174,7 +172,7 @@
     transform: translateX(-50%);
     bottom: 90px;
     background-color: transparent;
-    background-image: url("images/down-usual.svg");
+    background-image: url("../header/images/down-usual.svg");
     border: none;
     width: 97px;
     height: 97px;
@@ -182,12 +180,12 @@
 }
 
 .button-down:hover {
-    background-image: url("images/down-hover.svg");
+    background-image: url("../header/images/down-hover.svg");
 }
 .button-down:active {
-    background-image: url("images/down-active.svg");
+    background-image: url("../header/images/down-active.svg");
 }
 
 .button-down:focus {
-    background-image: url("images/down-focus.svg");
+    background-image: url("../header/images/down-focus.svg");
 }

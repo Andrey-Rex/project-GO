@@ -38,28 +38,34 @@
 }
 .faq__item:nth-child(even)::after {
   background-image: url("images/open.svg");
+  transition: all 0.4s ease-in, border-color 0.6s ease-in;
 }
 
 .faq__item:nth-child(even):hover:after {
   background-image: url("images/open-hover.svg");
+  transition: all 0.4s ease-in, border-color 0.6s ease-in;
 }
 
 .faq__item:nth-child(even):active:after {
   background-image: url("images/open-active.svg");
+  transition: all 0.4s ease-in, border-color 0.6s ease-in;
 }
 
 
 
 .faq__item:nth-child(odd)::after {
   background-image: url("images/open-purple.svg");
+  transition: all 0.4s ease-in, border-color 0.6s ease-in;
 }
 
 .faq__item:nth-child(odd):hover:after {
   background-image: url("images/open-purple-hover.svg");
+  transition: all 0.4s ease-in, border-color 0.6s ease-in;
 }
 
 .faq__item:nth-child(odd):active:after {
   background-image: url("images/open-purple-active.svg");
+  transition: all 0.4s ease-in, border-color 0.6s ease-in;
 }
 
 

@@ -64,6 +64,26 @@
     line-height: 50px;
 }
 
+.nav__link {
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.nav__link:hover {
+    color: #6C0287;
+}
+
+.nav__link:focus {
+    border: 1px solid #CD06FF;
+    border-radius: 8px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.nav__link:active {
+    color: #640AA3;
+}
+
 .header__button {
     max-height: 55px;
     display: inline-block;
@@ -84,16 +104,17 @@
     background-color: #6C0287;
     border-color: #6C0287;
 }
+.header__button:focus {
+    background-color: #6C0287;
+    border-color: #6C0287;
+}
 
 .header__button:active {
     background-color: #640AA3;
     border-color: #640AA3;
 }
 
-.header__button:focus {
-    background-color: #6C0287;
-    border-color: #6C0287;
-}
+
 
 
 

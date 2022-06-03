@@ -64,9 +64,7 @@
     flex-basis: 250px;
     justify-content: center;
     align-items: center;
-
     cursor: pointer;
-
     padding-top: 7px;
     padding-bottom: 8px;
     font-size: 30px;
@@ -75,31 +73,37 @@
     text-transform: uppercase;
     color: #000 ;
     background-color: #ffffff;
-
     border-radius: 8px;
-    border: 3px solid transparent;
 }
+/*код переделки на параллельный инпут и лейбл*/
 
-.choose-hall__label:hover {
+.choose-hall__input:not(:disabled)+.choose-hall__label:hover {
+    outline: 3px solid #640aa3;
+    outline-offset: -3px;
     background-color: #EADEED;
-    border: 3px solid #640AA3;
-
 }
 
-.choose-hall__label:active {
+.choose-hall__input+.choose-hall__label:focus {
+    outline: 3px solid #640aa3;
+    outline-offset: -3px;
     background-color: #EADEED;
-    border: 3px solid transparent;
-
 }
 
-.choose-hall__label:focus {
-    border: 3px solid #640AA3;
+.choose-hall__input:active+.choose-hall__label {
+    background-color: #EADEED;
+}
 
+.choose-hall__input:checked+.choose-hall__label {
+    background-color: #EADEED;
 }
 
 .choose-hall__input {
-    display: none;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 }
+
+/**/
 
 .funbox__column {
     display: flex;
@@ -116,12 +120,19 @@
     position: absolute;
     z-index: -1;
     opacity: 0;
-    /*margin: 10px 0 0 20px;*/
-    /*border: 1px solid red;*/
 }
 
-.funbox__input:checked + .funbox__item:after {
-    opacity: 1;
+/*новый код*/
+
+.funbox__input:focus+.funbox__item:before {
+    outline: 1px solid #CD06FF;
+    outline-offset: 2px;
+}
+
+.funbox__input:checked+.funbox__item:before {
+    border-color: #CD06FF;
+    background-color: #CD06FF;
+    /*opacity: 1;*/
 }
 
 .funbox__item {
@@ -140,49 +151,13 @@
     height: 25px;
 }
 
-.funbox__item:focus:before {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: 0;
-    background: #FFF;
-    width: 25px;
-    height: 25px;
-    outline: 1px solid #CD06FF;
-    outline-offset: 2px;
-}
-
-.funbox__item:after {
-    content: '';
-    position: absolute;
-    top: 2px;
-    left: 5px;
-    width: 15px;
-    height: 15px;
-    background: #6C0287;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
-    opacity: 0;
-    transition: .2s;
-}
-
-.funbox__item_input_radio{
-    position: relative;
-    padding: 0 0 0 39px;
-    cursor: pointer;
-}
-
 .funbox__item_input_radio:before {
     width: 27px;
     height: 27px;
     border-radius: 50%;
 }
 
-.funbox__item_input_radio:after {
-    top: 3px;
-    left: 6px;
-    border-radius: 50%;
-}
-
+/**/
 .information{
     display: flex;
     justify-content: space-around;

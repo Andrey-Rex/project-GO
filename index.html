@@ -16,11 +16,11 @@
             <img class="header__logo" src="./css/header/images/logo.svg" alt="" width="120" height="66">
             <nav class="header__nav nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="#halls">Залы</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#booking">Бронь</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#reviews">Отзывы</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
+                    <li class="nav__item"><a class="nav__link transition" href="#halls">Залы</a></li>
+                    <li class="nav__item"><a class="nav__link transition" href="#about">О нас</a></li>
+                    <li class="nav__item"><a class="nav__link transition" href="#booking">Бронь</a></li>
+                    <li class="nav__item"><a class="nav__link transition" href="#reviews">Отзывы</a></li>
+                    <li class="nav__item"><a class="nav__link transition" href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
             <button class="header__button transition" type="button">Заказать звонок</button>
@@ -48,7 +48,7 @@
 
 
                 </div>
-                <button class="inner__button transition" type="button">Забронировать</button>
+                <button class="inner__button transition" type="button" >Забронировать</button>
             </div>
 
             <a class="button-down transition" href="#all-for-rest">
@@ -164,26 +164,20 @@
                 <fieldset class="choose-hall">
                     <legend class="section__subtitle">Выбери зал</legend>
 
-                    <label class="choose-hall__label transition" for="vibes">
-                        <input class="choose-hall__input" type="radio" name="halls" id="vibes" value="80's vibes">
-                        <span>80's vibes</span>
-                    </label>
+                    <input class="choose-hall__input" type="radio" name="halls" id="vibes" value="80's vibes" >
+                    <label class="choose-hall__label transition" for="vibes" tabindex="1">80's vibes</label>
+
+                    <input class="choose-hall__input" type="radio" name="halls" id="star-wars" value="Star wars" >
+                    <label class="choose-hall__label transition" for="star-wars" tabindex="2">Star wars</label>
 
 
-                    <label class="choose-hall__label transition" for="star-wars">
-                        <input class="choose-hall__input" type="radio" name="halls" id="star-wars" value="Star wars">
-                        <span >Star wars</span>
-                    </label>
 
-                    <label class="choose-hall__label transition" for="wild-west">
-                        <input class="choose-hall__input" type="radio" name="halls" id="wild-west" value="Wild west">
-                        <span>Wild west</span>
-                    </label>
+                    <input class="choose-hall__input" type="radio" name="halls" id="wild-west" value="Wild west">
+                    <label class="choose-hall__label transition" for="wild-west" tabindex="3">Wild west</label>
 
-                    <label class="choose-hall__label transition" for="neon-style">
-                        <input class="choose-hall__input" type="radio" name="halls" id="neon-style" value="Neon style">
-                        <span>Neon style</span>
-                    </label>
+
+                    <input class="choose-hall__input" type="radio" name="halls" id="neon-style" value="Neon style" >
+                    <label class="choose-hall__label transition" for="neon-style" tabindex="4">Neon style</label>
 
                 </fieldset>
 
@@ -197,19 +191,19 @@
                                 <span class="funbox__item funbox__item_input_radio">Play Station</span>
                             </label>
 
-                            <label for="smd">
+                            <label class="funbox__label" for="smd">
                                 <input class="funbox__input" type="radio" name="console" id="smd"
                                        value="Sega Mega Drive">
                                 <span class="funbox__item funbox__item_input_radio">Sega Mega Drive</span>
                             </label>
 
-                            <label for="x-box">
+                            <label class="funbox__label" for="x-box">
                                 <input class="funbox__input" type="radio" name="console" id="x-box"
                                        value="X-Box One S">
                                 <span class="funbox__item funbox__item_input_radio">X-Box One S</span>
                             </label>
 
-                            <label for="dendy">
+                            <label class="funbox__label" for="dendy">
                                 <input class="funbox__input" type="radio" name="console" id="dendy" value="Dendy">
                                 <span class="funbox__item funbox__item_input_radio">Dendy</span>
                             </label>
@@ -219,24 +213,24 @@
 
                         <fieldset class="funbox__column">
                             <legend class="funbox__column-title section__subtitle">Настольные игры:</legend>
-                            <label for="jenga">
+                            <label class="funbox__label" for="jenga">
                                 <input class="funbox__input" type="checkbox" name="jenga" id="jenga" value="Jenga">
                                 <span class="funbox__item">Jenga</span>
                             </label>
 
-                            <label for="monopoly">
+                            <label class="funbox__label" for="monopoly">
                                 <input class="funbox__input" type="checkbox" name="monopoly" id="monopoly"
                                        value="Monopoly">
                                 <span class="funbox__item">Monopoly</span>
                             </label>
 
-                            <label for="manchkin">
+                            <label class="funbox__label" for="manchkin">
                                 <input class="funbox__input" type="checkbox" name="manchkin" id="manchkin"
                                        value="Manchkin">
                                 <span class="funbox__item">Манчкин</span>
                             </label>
 
-                            <label for="alias">
+                            <label class="funbox__label" for="alias">
                                 <input class="funbox__input" type="checkbox" name="alias" id="alias" value="Alias">
                                 <span class="funbox__item">Alias</span>
                             </label>
@@ -245,12 +239,12 @@
 
                         <fieldset class="funbox__column">
                             <legend class="funbox__column-title section__subtitle">Дополнительно:</legend>
-                            <label for="karaoke">
+                            <label class="funbox__label" for="karaoke">
                                 <input class="funbox__input" type="checkbox" name="karaoke" id="karaoke" value="Karaoke">
                                 <span class="funbox__item">Караоке</span>
                             </label>
 
-                            <label for="vr">
+                            <label class="funbox__label" for="vr">
                                 <input class="funbox__input" type="checkbox" name="vr" id="vr" value="VR">
                                 <span class="funbox__item">VR</span>
                             </label>
@@ -481,8 +475,6 @@
                     </li>
 
 <!--                    -->
-
-
 
                 </ul>
             </div>

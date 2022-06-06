@@ -1,0 +1,16 @@
+*:root {
+    --white-color: #ffffff;
+
+    --black-color: #000000;
+    --dark-color: #1B1A1B;
+    --light-black-color: #1C1A1A;
+
+    --plum-color: #640aa3;
+    --light-darkplum-color: #440f51;
+    --darkplum-color: #370A37;
+
+    --violet-fucsi-color: #cd06ff;
+    --pink-lavender-color: #EADEED;
+    --light-purple-color: #840aa3;
+    --dark-purple-color: #6c0287;
+}

@@ -1,6 +1,6 @@
 .booking {
     padding: 80px 130px;
-    background: #440F51;
+    background: var(--light-darkplum-color, #440F51);
     margin-left: -130px;
     margin-right: -130px;
 }
@@ -12,25 +12,25 @@
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
-    color: #6C0287;
-    background-color: #ffffff;
+    color: var(--dark-purple-color, #6C0287);
+    background-color: var(--white-color, #ffffff);
     border: 3px solid transparent;
     margin-left: 780px;
 
 }
 
 .booking__button:hover {
-    background-color: #EADEED;
-    border: 3px solid #6C0287;
+    background-color: var(--pink-lavender-color, #EADEED);
+    border: 3px solid var(--dark-purple-color, #6C0287);
 }
 
 .booking__button:active {
-    background-color: #EADEED;
+    background-color: var(--pink-lavender-color, #EADEED);
     border: 3px solid transparent;
 }
 
 .booking__button:focus {
-    border: 3px solid #6C0287;
+    border: 3px solid var(--dark-purple-color, #6C0287);
 }
 
 .funbox {
@@ -71,30 +71,30 @@
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
-    color: #000 ;
-    background-color: #ffffff;
+    color: var(--black-color, #000000);
+    background-color: var(--white-color, #ffffff);
     border-radius: 8px;
 }
 /*код переделки на параллельный инпут и лейбл*/
 
 .choose-hall__input:not(:disabled)+.choose-hall__label:hover {
-    outline: 3px solid #640aa3;
+    outline: 3px solid var(--plum-color, #640aa3);
     outline-offset: -3px;
-    background-color: #EADEED;
+    background-color: var(--pink-lavender-color, #EADEED);
 }
 
-.choose-hall__input+.choose-hall__label:focus {
-    outline: 3px solid #640aa3;
+.choose-hall__input:focus+.choose-hall__label {
+    outline: 3px solid var(--plum-color, #640aa3);
     outline-offset: -3px;
-    background-color: #EADEED;
+    background-color: var(--pink-lavender-color, #EADEED);
 }
 
 .choose-hall__input:active+.choose-hall__label {
-    background-color: #EADEED;
+    background-color: var(--pink-lavender-color, #EADEED);
 }
 
 .choose-hall__input:checked+.choose-hall__label {
-    background-color: #EADEED;
+    background-color: var(--pink-lavender-color, #EADEED);
 }
 
 .choose-hall__input {
@@ -125,13 +125,13 @@
 /*новый код*/
 
 .funbox__input:focus+.funbox__item:before {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--violet-fucsi-color, #CD06FF);
     outline-offset: 2px;
 }
 
 .funbox__input:checked+.funbox__item:before {
-    border-color: #CD06FF;
-    background-color: #CD06FF;
+    border-color: var(--violet-fucsi-color, #CD06FF);
+    background-color: var(--violet-fucsi-color, #CD06FF);
     /*opacity: 1;*/
 }
 
@@ -146,7 +146,7 @@
     position: absolute;
     top: -3px;
     left: 0;
-    background: #FFF;
+    background: var(--white-color, #ffffff);
     width: 25px;
     height: 25px;
 }
@@ -203,5 +203,5 @@
 }
 
 .information__input:focus {
-    border: 2px solid #CD06FF;
+    border: 2px solid var(--violet-fucsi-color, #CD06FF);
 }

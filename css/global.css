@@ -15,7 +15,8 @@ body {
     font-family: Arial, "Segoe UI", sans-serif;
     font-weight: 400;
     font-size: 20px;
-    background-color: #1B1A1B;
+    /*background-color: #1B1A1B;*/
+    background-color: var(--dark-color, #1B1A1B);
     padding-top: 30px;
 }
 
@@ -95,5 +96,6 @@ iframe {
     max-width: 1240px;
     padding: 0 30px;
     margin: 0 auto;
-    color: #fff;
+    /*color: #fff;*/
+    color: var(--white-color, #FFFFFF);
 }

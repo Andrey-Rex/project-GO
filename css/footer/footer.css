@@ -17,6 +17,8 @@
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
+    max-width: 380px;
+    margin-right: 60px;
 }
 .city   {
     padding-left: 60px;
@@ -48,21 +50,21 @@
 .social__icon {
     max-width: 48px;
     max-height: 48px;
-    fill: #FFFFFF;
+    fill: var(--white-color, #ffffff);
 }
 
 .social__icon:hover {
-    fill: #EADEED;
+    fill: var(--pink-lavender-color, #EADEED);
 }
 
 .social__icon:active {
-    fill: #CD06FF;
+    fill: var(--violet-fucsi-color, #CD06FF);
 
 }
 
 .social__icon:focus {
-    fill: #EADEED;
-    outline: 1px solid #cd06ff;
+    fill: var(--pink-lavender-color, #EADEED);
+    outline: 1px solid var(--violet-fucsi-color, #CD06FF);
 }
 
 .social__item:last-child {
@@ -70,12 +72,10 @@
 
 }
 .footer {
-    padding-top: 100px;
+    padding: 100px 184px 21px 76px;
     margin-left: -76px;
-    padding-left: 76px;
     margin-right: -184px;
-    padding-right: 184px;
-    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+    background: linear-gradient(180deg,  var(--dark-color, #1B1A1B) 0%, var(--darkplum-color, #370A37) 100%);
 }
 
 .footer__map {
@@ -98,14 +98,15 @@
 
 }
 .bottom__info {
-
-
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+
 .bottom__info-text {
     margin-bottom: 6px;
 }
+
 .bottom__link {
 
 }

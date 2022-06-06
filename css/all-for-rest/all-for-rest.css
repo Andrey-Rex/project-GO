@@ -23,6 +23,14 @@
     flex-wrap:wrap;
     flex-basis: 32%;
 }
+
+.all-for-rest__item:nth-child(2) {
+    margin-top: 70px;
+}
+.all-for-rest__item:nth-child(2n+4) {
+    margin-top: -70px;
+}
+
 .all-for-rest__img{
     position: absolute;
     bottom: 0;

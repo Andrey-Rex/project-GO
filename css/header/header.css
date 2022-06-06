@@ -70,18 +70,18 @@
 }
 
 .nav__link:hover {
-    color: #6C0287;
+    color: var(--dark-purple-color, #6C0287);
 }
 
 .nav__link:focus {
-    border: 1px solid #CD06FF;
+    border: 1px solid var(--violet-fucsi-color, #CD06FF);
     border-radius: 8px;
     padding-right: 2px;
     padding-left: 2px;
 }
 
 .nav__link:active {
-    color: #640AA3;
+    color: var(--plum-color, #640AA3);
 }
 
 .header__button {
@@ -91,27 +91,27 @@
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
-    color: #ffffff;
-    background-color: #1B1A1B;
+    color: var(--white-color, #ffffff);
+    background-color: var(--dark-color, #1B1A1B);
     padding: 12px 32px 13px 32px;
-    border: 3px solid #CD06FF;
+    border: 3px solid var(--violet-fucsi-color, #CD06FF);
     border-radius: 10px;
     cursor: pointer;
 }
 
 
 .header__button:hover {
-    background-color: #6C0287;
-    border-color: #6C0287;
+    background-color: var(--dark-purple-color, #6C0287);
+    border-color: var(--dark-purple-color, #6C0287);
 }
 .header__button:focus {
-    background-color: #6C0287;
-    border-color: #6C0287;
+    background-color: var(--dark-purple-color, #6C0287);
+    border-color: var(--dark-purple-color, #6C0287);
 }
 
 .header__button:active {
-    background-color: #640AA3;
-    border-color: #640AA3;
+    background-color: var(--plum-color, #640AA3);
+    border-color: var(--plum-color, #640AA3);
 }
 
 
@@ -148,7 +148,7 @@
     font-size: 100px;
     font-weight: 900;
     line-height: 141px;
-    color: #CD06FF;
+    color: var(--violet-fucsi-color, #CD06FF);
 }
 .inner__span_type_letter {
     display: block;
@@ -156,7 +156,7 @@
     font-size: 75px;
     font-weight: 900;
     line-height: 106px;
-    color: #CD06FF;
+    color: var(--violet-fucsi-color, #CD06FF);
 }
 
 .inner__button {
@@ -168,21 +168,21 @@
     padding: 25px 69px;
     border: none;
     border-radius: 10px;
-    color: #ffffff;
-    background-color: #6C0287;
+    color: var(--white-color, #ffffff);
+    background-color: var(--dark-purple-color, #6C0287);
 
     margin-bottom: 155px;
 }
 
 .inner__button:hover,
 .inner__button:focus {
-    background-color: #840AA3;
-    border-color: #840AA3;
+    background-color: var(--light-purple-color, #840AA3);
+    border-color: var(--light-purple-color, #840AA3);
 }
 
 .inner__button:active {
-    background-color:#640AA3;
-    border-color:#640AA3;
+    background-color: var(--plum-color, #640AA3);
+    border-color: var(--plum-color, #640AA3);
 }
 
 .down {
@@ -210,7 +210,7 @@
 
 .button-down:focus {
     background-image: url("../header/images/down-usual.svg");
-    outline: 1px   solid #CD06FF;
+    outline: 1px   solid var(--violet-fucsi-color, #CD06FF);
 }
 
 .button-down:active {

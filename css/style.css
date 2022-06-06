@@ -1,6 +1,8 @@
 @import "normalize.css";
 @import "global.css";
 
+@import "variables.css";
+
 @import "main.css";
 @import "header/header.css";
 

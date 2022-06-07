@@ -2,6 +2,11 @@
     padding: 102px 103px 0 103px;
 }
 
+.reviews__list{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 .reviews__img {
     width: 280px;
     height: 280px;
@@ -15,7 +20,7 @@
 .reviews__img-wrap:before {
     content: "";
     position: absolute;
-    width: 275px;
+    width: 280px;
     height: 280px;
     border-radius: 5000%;
     background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
@@ -38,7 +43,7 @@
     display: inline-block;
     line-height: 28px;
     max-width: 680px;
-    margin-top: 52px;
+    padding-top: 52px;
     text-align: left;
 
 }

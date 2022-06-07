@@ -5,11 +5,11 @@
 }
 
 .section__title_rows_two {
-    /*margin-left: 230px;*/
-    /*margin-right: 230px;*/
     margin: 0 auto;
-    max-width: 980px;
+    /*max-width: 980px;*/
     margin-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .all-for-rest__list{
@@ -40,6 +40,7 @@
     height: auto;
     vertical-align: top;
 }
+
 .all-for-rest__figure {
     position: relative;
 
@@ -50,7 +51,6 @@
     height: 228px;
     width: 380px;
     transition: all 0.6s ease;
-
 }
 
 .all-for-rest__figure:hover {
@@ -59,8 +59,7 @@
 
 .all-for-rest__img-descr {
     position: relative;
-    max-width: 300px;
-    bottom: -165px;
-    right: -40px;
-    z-index: 10;
+    padding-top: 165px;
+    padding-right: 40px;
+    padding-left: 40px;
 }

@@ -8,8 +8,8 @@
     margin: 0 auto;
     /*max-width: 980px;*/
     margin-bottom: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 149px;
+    padding-right: 155px;
 }
 
 .all-for-rest__list{
@@ -59,7 +59,7 @@
 
 .all-for-rest__img-descr {
     position: relative;
-    padding-top: 165px;
+    padding-top: 168px;
     padding-right: 40px;
     padding-left: 40px;
 }

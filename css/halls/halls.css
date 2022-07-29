@@ -49,6 +49,9 @@
 .halls{
     margin-bottom: 100px;
 }
+.halls__title {
+    margin-bottom: 48px;
+}
 
 .halls__list {
     display: flex;
@@ -71,9 +74,10 @@
 
 .halls__name {
     position: relative;
-    top: -189%;
-    right: 0;
+    top: -246%;
+    right: -29%;
     z-index: 10;
+    max-width: 245px;
 }
 
 .halls__img {

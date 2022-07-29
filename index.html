@@ -108,7 +108,7 @@
                         <figure class="all-for-rest__figure">
                             <img class="all-for-rest__img" src="css/all-for-rest/images/netflix.jpg"
                                  alt="телевизор с логотипом Netflix">
-                            <figcaption class="all-for-rest__img-descr">Киносервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
+                            <figcaption class="all-for-rest__img-descr">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
                             </figcaption>
                         </figure>
                     </li>
@@ -130,7 +130,7 @@
         <section class="halls section" id="halls">
             <div class="container">
 
-                <h2 class="section__title">Наши залы</h2>
+                <h2 class="section__title halls__title">Наши залы</h2>
                 <ul class="halls__list">
 
                     <li class="halls__item">
@@ -167,7 +167,7 @@
         <section class="booking section" id="booking">
 
             <div class="container">
-                <h2 class="section__title">Забронировать зал просто</h2>
+                <h2 class="section__title booking__title">Забронировать зал просто</h2>
 
                 <form action="https://jsonplaceholder.typicode.com/posts" method="post">
 
@@ -196,9 +196,9 @@
                         <div class="funbox__inner">
                             <fieldset class="funbox__column">
                                 <legend class="funbox__column-title section__subtitle">Приставка:</legend>
-                                <label for="ps">
+                                <label class="funbox__label" for="ps">
                                     <input class="funbox__input" type="radio" name="console" id="ps" value="Play Station">
-                                    <span class="funbox__item funbox__item_input_radio">Play Station</span>
+                                    <span class="funbox__item funbox__item_input_radio">PlayStation 5</span>
                                 </label>
 
                                 <label class="funbox__label" for="smd">
@@ -225,24 +225,24 @@
                                 <legend class="funbox__column-title section__subtitle">Настольные игры:</legend>
                                 <label class="funbox__label" for="jenga">
                                     <input class="funbox__input" type="checkbox" name="jenga" id="jenga" value="Jenga">
-                                    <span class="funbox__item">Jenga</span>
+                                    <span class="funbox__item funbox__item_input_checkbox">Jenga</span>
                                 </label>
 
                                 <label class="funbox__label" for="monopoly">
                                     <input class="funbox__input" type="checkbox" name="monopoly" id="monopoly"
                                            value="Monopoly">
-                                    <span class="funbox__item">Monopoly</span>
+                                    <span class="funbox__item funbox__item_input_checkbox">Monopoly</span>
                                 </label>
 
                                 <label class="funbox__label" for="manchkin">
                                     <input class="funbox__input" type="checkbox" name="manchkin" id="manchkin"
                                            value="Manchkin">
-                                    <span class="funbox__item">Манчкин</span>
+                                    <span class="funbox__item funbox__item_input_checkbox">Манчкин</span>
                                 </label>
 
                                 <label class="funbox__label" for="alias">
                                     <input class="funbox__input" type="checkbox" name="alias" id="alias" value="Alias">
-                                    <span class="funbox__item">Alias</span>
+                                    <span class="funbox__item funbox__item_input_checkbox">Alias</span>
                                 </label>
 
                             </fieldset>
@@ -284,7 +284,7 @@
                         </label>
 
                         <label class="information__label" for="tel">
-                            <span>Номер телефона</span>
+                            <span>Телефон</span>
                             <input class="information__input" type="tel" name="tel" id="tel" required>
                         </label>
 
@@ -320,27 +320,27 @@
 
                 <div class="about__wrap">
 
-                    <!--                <div class="about__images images">-->
-                    <!--                    <div class="images__row">-->
-                    <!--                        <img class="images__item" src="./css/about/images/woman-in-VR.jpg"-->
-                    <!--                             alt="женщина в очках виртальной реальности">-->
-                    <!--                        <img class="images__item" src="css/about/images/hren.jpg"-->
-                    <!--                             alt="какая-то красивая картника, непонятно, что это такое">-->
+                                    <div class="about__images images">
+                                        <div class="images__row">
+                                            <img class="images__item" src="./css/about/images/woman-in-VR.jpg"
+                                                 alt="женщина в очках виртальной реальности">
+                                            <img class="images__item" src="css/about/images/hren.jpg"
+                                                 alt="какая-то красивая картника, непонятно, что это такое">
 
-                    <!--                    </div>-->
+                                        </div>
 
-                    <!--                    <div class="images__row">-->
-                    <!--                        <img class="images__item" src="css/about/images/games.jpg" alt="телевизор с логотипом fifa">-->
-                    <!--                        <img class="images__item" src="css/about/images/tetris.jpg" alt="тетрис">-->
-                    <!--                        <img class="images__item" src="css/about/images/gamepad.jpg" alt="геймпад">-->
-                    <!--                    </div>-->
+                                        <div class="images__row">
+                                            <img class="images__item" src="css/about/images/games.jpg" alt="телевизор с логотипом fifa">
+                                            <img class="images__item" src="css/about/images/tetris.jpg" alt="тетрис">
+                                            <img class="images__item" src="css/about/images/gamepad.jpg" alt="геймпад">
+                                        </div>
 
-                    <!--                    <div class="images__row">-->
-                    <!--                        <img class="images__item" src="./css/about/images/man-with-mic.jpg" alt="мужик с микрофоном">-->
-                    <!--                        <img class="images__item" src="./css/about/images/man-in-VR.jpg"-->
-                    <!--                             alt="мужик в очках виртуальной реальности">-->
-                    <!--                    </div>-->
-                    <!--                </div>-->
+                                        <div class="images__row">
+                                            <img class="images__item" src="./css/about/images/man-with-mic.jpg" alt="мужик с микрофоном">
+                                            <img class="images__item" src="./css/about/images/man-in-VR.jpg"
+                                                 alt="мужик в очках виртуальной реальности">
+                                        </div>
+                                    </div>
 
                     <div class="text-wrap">
                         <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство

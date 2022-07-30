@@ -1,7 +1,11 @@
+.footer__title {
+    margin-bottom: 45px;
+}
+
 .footer__wrap {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 166px;
+    margin-bottom: 146px;
 }
 
 .footer__inner {
@@ -22,7 +26,7 @@
 }
 .city   {
     padding-left: 60px;
-    margin-bottom: 38px;
+    margin-bottom: 45px;
     background: url("../footer/images/location.svg") no-repeat left center;
     max-width: 300px;
 }
@@ -39,7 +43,8 @@
 
 .address__item_type_mail{
     background: url("../footer/images/envelope.svg") no-repeat left center;
-    padding-left: 60px;
+    padding-left: 55px;
+    margin-left: 5px;
 }
 
 .social {

@@ -1,7 +1,10 @@
 .reviews {
-    padding: 102px 103px 0 103px;
+    padding: 100px 103px 0 103px;
 }
 
+.reviews__title {
+    margin-bottom: 46px;
+}
 .reviews__list{
     max-width: 980px;
     margin: 0 auto;
@@ -12,11 +15,18 @@
     height: 280px;
     border-radius: 5000%;
     object-fit: cover;
-    object-position: top;
-    margin-bottom: 11px;
-
-
+    margin-bottom: 10px;
+    object-position: 50% 30%;
 }
+
+.reviews__img_position_top {
+    object-position: top;
+}
+
+.reviews__img_position_individ {
+    object-position: 50% 57%;
+}
+
 .reviews__img-wrap:before {
     content: "";
     position: absolute;

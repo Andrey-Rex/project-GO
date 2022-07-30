@@ -1,67 +1,98 @@
 .section__title_bottom_more {
-    margin-bottom: 50px;
+    margin-bottom: 47px;
 }
+/*.about__wrap {*/
+/*    display: flex;*/
+/*    gap: 80px;*/
+
+/*}*/
 .about__wrap {
-    display: flex;
-    gap: 80px;
-
+    display: grid;
+    grid-template-columns: 600px auto;
+    grid-template-rows: auto auto;
+    gap: 55px 80px;
 }
 
-.about__images {
-    width: 600px;
-    height: 596px;
-
+.about__img-block {
+    max-height: 596px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+.about__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
-.images__row {
-    white-space: nowrap;
-    margin-left: 6px;
-    font-size: 14px;
-}
+/*.about__images {*/
+/*    width: 600px;*/
+/*    height: 596px;*/
 
-.images__item {
-    max-width: 100%;
-    height: auto;
-    margin-left: -6px;
-    vertical-align: top;
-}
+/*}*/
+
+/*.images__row {*/
+/*    white-space: nowrap;*/
+/*    margin-left: 6px;*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*.images__item {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    margin-left: -6px;*/
+/*    vertical-align: top;*/
+/*}*/
 
 .text-wrap {
     /*width: 500px;*/
     max-width: 100%;
 }
-
+.about__text {
+    line-height: 28px;
+}
 .about__text:not(:nth-child(n+2)) {
-    margin-bottom: 44px;
+    margin-bottom: 28px;
 }
 
 .blockquote {
-    margin-top: 70px;
+    /*margin-top: 70px;*/
 }
 
+/*.blockquote__text {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 44px;*/
+/*    line-height: 50px;*/
+/*    margin-left: 45px;*/
+/*    margin-bottom: 40px;*/
+/*}*/
 .blockquote__text {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
+    max-width: 400px;
     font-size: 44px;
+    font-weight: 400;
     line-height: 50px;
-    margin-left: 45px;
-    margin-bottom: 40px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 31px;
+    margin-bottom: 33px;
 }
 
 .blockquote__text::before {
     content: url("images/cite-before.svg");
     position: absolute;
-    top: -20px;
-    left: -40px;
+    top: -24px;
+    left: 0;
 }
+
+
 
 .blockquote__text::after {
     content: url("images/cite-before.svg");
     position: absolute;
     transform: rotate(180deg);
     /*right: 95px;*/
-    right: -40px;
+    right: 10px;
     bottom: 3px;
 }
 
@@ -86,11 +117,11 @@
 
 .blockquote__boss-wrapper {
     display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     flex-wrap: nowrap;
     /*font-size: 20px;*/
     /*line-height: 28px;*/
-    /*margin-left: 515px;*/
+    margin-left: 111px;
     /*margin-left: 790px;*/
 }
 .blockquote__cite-wrap {

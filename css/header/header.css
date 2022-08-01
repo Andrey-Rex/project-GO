@@ -220,3 +220,84 @@
      background-image: url("../header/images/down-active.svg");
     outline: none;
  }
+
+
+@media (max-width: 1024px) {
+    .header__top {
+        margin-bottom: -30px;
+    }
+
+    .header__title {
+        font-size: 120px;
+        line-height: 120px;
+        margin-bottom: 20px;
+        letter-spacing: -12px;
+    }
+
+    .header__text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .container {
+        max-width: 964px;
+
+    }
+
+    .header__logo {
+        width: 87px;
+        height: 55px;
+    }
+
+    .nav__list {
+        gap: 19px;
+    }
+    .nav__item {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .header__button {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 8px 24px 8px 24px;
+    }
+
+    .inner__span_type_number {
+        font-size: 80px;
+        line-height: 114px;
+    }
+    .inner__span_type_letter {
+        font-size: 51px;
+        line-height: 77px;
+    }
+
+    .inner__block{
+        gap: 28px;
+        margin-bottom: 80px;
+    }
+
+    .inner__text {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .inner__button {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 17px 48px;
+        margin-bottom: 140px;
+        margin-left: 40px;
+    }
+
+    .button-down {
+        width: 67px;
+        height: 67px;
+    }
+
+    .header__background {
+        width: 460px;
+        bottom: 141px;
+        right: 56px;
+    }
+
+}

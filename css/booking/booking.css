@@ -220,3 +220,46 @@
 .information__input:focus {
     border: 2px solid var(--violet-fucsi-color, #CD06FF);
 }
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .booking {
+        padding-top: 60px;
+    }
+
+    .booking__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 42px;
+
+    }
+    .section__subtitle {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 26px;
+    }
+
+    .choose-hall__label {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 10px 20px;
+    }
+
+    .funbox {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 849px;
+    }
+
+    .funbox__inner {
+        column-gap: 111px;
+    }
+
+
+
+
+
+}

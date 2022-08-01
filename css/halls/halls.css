@@ -89,3 +89,33 @@
     height: auto;
     vertical-align: top;
 }
+
+@media (max-width: 1024px) {
+    .halls {
+        padding-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .halls__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 36px;
+    }
+
+    .halls__item {
+        font-size: 50px;
+        line-height: 60px;
+        height: 267px;
+        width: 443px;
+        padding-top: 0;
+    }
+
+    .halls__list {
+        gap: 18px;
+    }
+
+    .halls__name {
+        top: 28%;
+        right: -22%;
+    }
+}

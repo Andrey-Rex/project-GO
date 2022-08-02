@@ -1,3 +1,10 @@
+.container {
+    max-width: 1240px;
+}
+
+.header__container {
+    position: relative;
+}
 
 .header__section {
     padding-top: 0;
@@ -23,8 +30,10 @@
     position: absolute;
     width: 675px;
     height: auto;
-    bottom: 66px;
-    right: 130px;
+
+    object-fit: cover;
+    bottom: 65px;
+    right: 30px;
 
 }
 
@@ -298,7 +307,7 @@
     .header__background {
         width: 460px;
         bottom: 0;
-        right: 56px;
+        right: 26px;
     }
 
 }

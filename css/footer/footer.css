@@ -77,9 +77,10 @@
 
 }
 .footer {
-    padding: 100px 184px 21px 76px;
-    margin-left: -76px;
-    margin-right: -184px;
+    padding-top: 100px;
+    /*padding: 100px 184px 21px 76px;*/
+    /*margin-left: -76px;*/
+    /*margin-right: -184px;*/
     background: linear-gradient(180deg,  var(--dark-color, #1B1A1B) 0%, var(--darkplum-color, #370A37) 100%);
 }
 

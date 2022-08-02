@@ -228,6 +228,7 @@
 
     .booking {
         padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .booking__title {
@@ -257,6 +258,37 @@
     .funbox__inner {
         column-gap: 111px;
     }
+
+    .information {
+        justify-content: space-between;
+        padding-right: 0;
+        padding-left: 0;
+        gap: 0 0;
+    }
+
+    .information__label {
+        margin-bottom: 10px;
+    }
+
+    .information__input {
+        margin-top: 4px;
+        padding: 12px 16px;
+    }
+
+    .information__label_size_short-on-1024 {
+        flex-basis: 254px;
+    }
+    .information__label_size_short {
+        flex-basis: 251px;
+    }
+
+    .booking__button {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 11px 40px;
+        margin-left: 653px;
+    }
+
 
 
 

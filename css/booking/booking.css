@@ -227,8 +227,9 @@
     }
 
     .booking {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding: 60px 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .booking__title {

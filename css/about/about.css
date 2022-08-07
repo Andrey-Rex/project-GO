@@ -74,26 +74,38 @@
     line-height: 50px;
     text-transform: uppercase;
     position: relative;
-    padding-left: 31px;
+    padding-left: 24px;
     margin-bottom: 33px;
 }
 
 .blockquote__text::before {
-    content: url("images/cite-before.svg");
+    content: '';
+    background-image: url("images/cite-before.svg");
     position: absolute;
     top: -24px;
     left: 0;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 
 .blockquote__text::after {
-    content: url("images/cite-before.svg");
+    content: '';
+    background-image: url("images/cite-before.svg");
     position: absolute;
     transform: rotate(180deg);
     /*right: 95px;*/
     right: 10px;
     bottom: 3px;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blockquote__span {
@@ -132,3 +144,100 @@
     font-style: normal;
 
 }
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .about {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .about__title {
+        margin-bottom: 24px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about__wrap {
+        display: grid;
+        grid-template-columns: 421px auto;
+        grid-template-rows: auto auto;
+        gap: 14px 40px;
+    }
+
+    .about__img-block {
+        max-height: 417px;
+    }
+
+    .text-wrap {
+        margin-bottom: 27px;
+    }
+
+    .about__text {
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .about__text:not(:nth-child(n+2)) {
+        margin-bottom: 24px;
+    }
+
+    .blockquote__text {
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .blockquote__cite {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .blockquote__text::before {
+        content: '';
+        background-image: url("images/cite-before.svg");
+        position: absolute;
+        top: -4px;
+        left: 0;
+        width: 13px;
+        height: 13px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .blockquote__text::after {
+        content: '';
+        background-image: url("images/cite-before.svg");
+        position: absolute;
+        transform: rotate(180deg);
+        /*right: 95px;*/
+        right: 132px;
+        bottom: 17px;
+        width: 13px;
+        height: 13px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .blockquote__span {
+        display: inline-block;
+    }
+
+    .blockquote__photo-wrapper {
+        max-width: 70px;
+        max-height: 70px;
+        margin-right: 37px;
+    }
+
+    .blockquote__boss-wrapper {
+    align-items: center;
+    }
+
+}
+

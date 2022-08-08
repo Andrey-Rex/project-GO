@@ -16,7 +16,7 @@
 .address{
     display: flex;
     flex-direction: column;
-    margin-bottom: 39px;
+    margin-bottom: 40px;
     font-style: inherit;
     font-size: 24px;
     line-height: 28px;
@@ -114,5 +114,95 @@
 }
 
 .bottom__link {
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .footer {
+        padding-top: 70px;
+        padding-left: 0;
+        padding-bottom: 19px;
+    }
+
+    .footer__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 26px;
+        margin-left: 0;
+    }
+
+    .footer__wrap {
+        margin-bottom: 95px;
+    }
+
+    .footer__map {
+        max-width: 542px;
+        max-height: 274px;
+    }
+
+    .address {
+        margin-right: 0;
+    }
+
+    .address__list-contacts {
+        gap: 7px;
+
+    }
+
+    .city   {
+        padding-left: 40px;
+        margin-bottom: 45px;
+        background: url("../footer/images/location.svg") no-repeat left center;
+        background-size: 26px 26px;
+        /*max-width: 300px;*/
+    }
+
+    .address__item_type_tel {
+        background: url("../footer/images/phone-call.svg") no-repeat left center;
+        padding-left: 40px;
+        background-size: 26px 26px;
+    }
+    .address__link_format_desktop {
+        display: none;
+    }
+
+    .address__link_format_adaptive {
+        display: inline-block;
+    }
+
+    .address__item_type_mail{
+        background: url("../footer/images/envelope.svg") no-repeat left center;
+        padding-left: 40px;
+        margin-left: 0;
+        background-size: 26px 26px;
+    }
+
+    .social {
+        gap: 26px;
+    }
+
+    .social__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__inner {
+        margin-bottom: 25px;
+    }
+
+    .map__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .bottom__info {
+        line-height: 11px;
+        gap: 5px;
+    }
 
 }

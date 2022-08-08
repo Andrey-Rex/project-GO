@@ -253,11 +253,12 @@
     .funbox {
         padding-left: 0;
         padding-right: 0;
-        max-width: 849px;
+        max-width: 100%;
     }
 
     .funbox__inner {
         column-gap: 111px;
+        justify-content: normal;
     }
 
     .information {
@@ -281,6 +282,10 @@
     }
     .information__label_size_short {
         flex-basis: 251px;
+    }
+
+    .information__span {
+        visibility: hidden;
     }
 
     .booking__button {

@@ -302,3 +302,79 @@
         padding: 0 40px;
     }
 }
+
+@media (max-width: 964px) {
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+    }
+
+    .section__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .booking {
+        padding-top: 50px;
+    }
+    .booking__title{
+        margin-bottom: 40px;
+    }
+
+    .choose-hall {
+        gap: 0;
+        margin-bottom: 50px;
+    }
+
+    .section__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .choose-hall__label {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 9px 0;
+        flex-basis: 150px;
+    }
+
+    .funbox {
+        margin-bottom: 17px;
+    }
+
+    .funbox__column-title {
+        margin-bottom: 34px;
+    }
+
+    .funbox__item_input_radio:before {
+        width: 40px;
+        height: 40px;
+    }
+
+    .funbox__inner {
+        justify-content: space-between;
+        padding-right: 99px;
+        flex-wrap: wrap;
+    }
+
+    .funbox__column {
+        margin-bottom: 22px;
+    }
+
+    .funbox__label {
+        margin-bottom: 17px;
+    }
+
+    .funbox__item {
+        padding: 0 0 0 60px;
+    }
+
+    .funbox__item:before {
+        top: -8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .information__subtitle {
+        margin-bottom: 10px;
+    }
+}

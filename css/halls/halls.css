@@ -125,4 +125,33 @@
         max-width: 768px;
         padding: 0 40px;
     }
+
+    .section__title {
+            font-size: 24px;
+            line-height: 36px;
+    }
+
+    .halls {
+        padding-top: 59px;
+        margin-bottom: 62px;
+    }
+
+    .halls__list {
+
+    }
+
+    .halls__item {
+        font-size: 36px;
+        line-height: 48px;
+        height: 200px;
+        width: 335px;
+        padding-top: 0;
+    }
+
+    .halls__name {
+        top: 32%;
+        right: -13%;
+        padding: 0 50px;
+    }
+
 }

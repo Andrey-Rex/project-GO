@@ -65,7 +65,7 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
     .container {
         max-width: 964px;
     }
@@ -122,8 +122,11 @@
     .reviews__item:last-child {
         margin-bottom: 0;
     }
+}
 
-
-
-
+@media (max-width: 964px) {
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+    }
 }

@@ -74,18 +74,18 @@
     line-height: 50px;
     text-transform: uppercase;
     position: relative;
-    padding-left: 24px;
-    margin-bottom: 33px;
+    padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 .blockquote__text::before {
     content: '';
     background-image: url("images/cite-before.svg");
     position: absolute;
-    top: -24px;
+    top: -3px;
     left: 0;
-    width: 26px;
-    height: 26px;
+    width: 21px;
+    height: 21px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,9 +100,9 @@
     transform: rotate(180deg);
     /*right: 95px;*/
     right: 10px;
-    bottom: 3px;
-    width: 26px;
-    height: 26px;
+    bottom: 22px;
+    width: 21px;
+    height: 21px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,7 +145,7 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
     .container {
         max-width: 964px;
     }

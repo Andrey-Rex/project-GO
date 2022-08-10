@@ -90,7 +90,7 @@
     vertical-align: top;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
     .halls {
         padding-top: 70px;
         margin-bottom: 70px;
@@ -117,5 +117,12 @@
     .halls__name {
         top: 28%;
         right: -22%;
+    }
+}
+
+@media (max-width: 964px) {
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
     }
 }

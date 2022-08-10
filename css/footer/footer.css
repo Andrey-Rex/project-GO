@@ -41,6 +41,10 @@
     padding-left: 60px;
 }
 
+.address__link_format_adaptive {
+    display: none;
+}
+
 .address__item_type_mail{
     background: url("../footer/images/envelope.svg") no-repeat left center;
     padding-left: 55px;
@@ -117,7 +121,7 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
     .container {
         max-width: 964px;
     }
@@ -205,4 +209,11 @@
         gap: 5px;
     }
 
+}
+
+@media (max-width: 964px) {
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+    }
 }

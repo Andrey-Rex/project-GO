@@ -173,23 +173,13 @@
 }
 
 /**/
-.information{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 14px 50px;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin-bottom: 38px;
 
-}
+/**/
 
-.date-time-wrap{
-    display: flex;
-    flex-basis: 300px;
-    justify-content: space-between;
-    gap: 32px;
-}
+/**/
+
+
+
 
 .information__label{
     display: flex;
@@ -202,20 +192,90 @@
 }
 
 .information__label_size_short {
-   flex-basis: 280px;
+   width: 280px;
+
 }
 
-.information__label_size_compressed {
-    max-width: 134px;
+/**/
+.information{
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-wrap: wrap;*/
+    /*gap: 14px 50px;*/
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 25px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 14px 50px;
+
+}
+
+.date-time-wrap{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-between;
+    gap: 32px;
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding-top: 20px;
+
+}
+
+.information__subtitle {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    margin-bottom: 23px;
+}
+
+.information__label_type_second-name {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.information__label_type_name {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.information__label_type_quantum {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    padding-top: 19px;
+}
+.information__label_type_mail {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    width: 300px;
+}
+.information__label_type_tel {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 300px;
+}
+
+
+.information__span {
+    /*visibility: hidden;*/
+    margin-bottom: 4px;
 }
 
 .information__input{
     font-size: 18px;
     line-height: 28px;
-    padding: 12px;
+    padding: 11px;
     outline: none;
-    margin-top: 1px;
+    /*margin-top: 1px;*/
 }
+/**/
+
+
+.information__label_size_compressed {
+    width: 134px;
+}
+
+
 
 .information__input:focus {
     border: 2px solid var(--violet-fucsi-color, #CD06FF);
@@ -262,10 +322,10 @@
     }
 
     .information {
-        justify-content: space-between;
+        /*justify-content: space-between;*/
         padding-right: 0;
         padding-left: 0;
-        gap: 0 0;
+        /*gap: 0 0;*/
     }
 
     .information__label {
@@ -284,9 +344,6 @@
         flex-basis: 251px;
     }
 
-    .information__span {
-        visibility: hidden;
-    }
 
     .booking__button {
         font-size: 18px;
@@ -378,3 +435,4 @@
         margin-bottom: 10px;
     }
 }
+
